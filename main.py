@@ -133,3 +133,48 @@
 #task_6
 # f= lambda n: n+n*n+n*n*n
 # print(f(int(input())))
+
+# #task_7
+# import math
+# def func(x):
+#     if -5<= x <= 5 :
+#         return x*x
+#     elif x<=-5:
+#         return 2 *abs(x)-1
+#     else:
+#         return 2*x
+# for i in range(-10,11):
+#     print(func(i), end='\n')
+# print()
+#
+
+# Home_work
+
+def fun(a):
+    d=0
+    c=0
+    k=0
+    f=0
+    if type(a) is tuple:
+        for i in a:
+            e = len(i)
+            k+=e
+        return f'Длинна слов {k}'
+    elif type(a) is list:
+        for i in a:
+            if type(i) is int:
+                c+=1
+            elif type(i) is str:
+                d+=1
+        return f'кол чисел {c},кол букв {d}'
+    elif type(a) is int:
+        for i in str(a):
+            i = int(i)
+            if i%2 !=0:
+                f+=1
+        return f'количество четных{f}'
+    elif type(a) is str:
+        m=len(a)
+        return f'кол {m}'
+print(fun(input()))
+

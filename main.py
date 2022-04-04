@@ -108,3 +108,28 @@
 #                        int(input("сторона треугольника"))))
 
 
+#task_3
+# import random
+# def fooo(a,b):
+#
+#     mass=[random.randint(a,b) for i in range (10)]
+#     print(mass)
+# print(fooo(int(input()),int(input())))
+#
+
+#task_4
+# def time(n):
+#         n = n % (24 * 3600)
+#         hour = n // 3600
+#         n %= 3600
+#         min = n // 60
+#         n %= 60
+#         print("seconds value in hours:", hour)
+#         print("seconds value in minutes:", min)
+#         return hour, min, n,
+# print(time(int(input())))
+
+
+#task_6
+# f= lambda n: n+n*n+n*n*n
+# print(f(int(input())))

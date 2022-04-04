@@ -73,12 +73,38 @@
 #FUNCTION_2
 
 #task_1
+#
+#
+# def razr(n):
+#     s = 0
+#     while n>0:
+#         n=n//10
+#         s+=1
+#     return s
+# print(razr(int(input())))
+
+#task_2
+# while True:
+#     import math
+#
+#     def circle(r):
+#         return math.pi*r**2
+#
+#     def rectangle(a,b):
+#         return a*b
+#
+#     def triangle(a,b,c):
+#         p = (a+b+c)/2
+#         return math.sqrt(p*(p-a)*(p-b)*(p-c))
+#
+#     inuut = input("введите с для круга r для прямоугольника t для треугольника")
+#
+#     if inuut == 'c':
+#         print(circle(int(input("введите радиус"))))
+#     elif inuut == 'r':
+#         print(rectangle(int(input("сторона 1 ")),int(input("сторона 2 "))))
+#     elif inuut == 't':
+#         print(triangle(int(input("сторона треугольника")),int(input("сторона треугольника")),
+#                        int(input("сторона треугольника"))))
 
 
-def razr(n):
-    s = 0
-    while n>0:
-        n=n//10
-        s+=1
-    return s
-print(razr(int(input())))

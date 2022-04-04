@@ -14,3 +14,14 @@
 #
 # while True:
 #     print(is_year_leap(int(input("введите год: "))))
+
+#lessons_3
+# import math
+#
+# def square(side):
+#     p = side *2
+#     s = side ** 2
+#     d = math.sqrt(2)*side
+#
+#     return f"пеприм = {p} , плос = {s}, диагональ = {d}"
+# print(square(int(input("введите сторону квадрата: "))))

@@ -40,3 +40,16 @@
 #
 # while True:
 #     season(int(input("введите номер месяца")))
+
+#lessons_5
+
+def is_prime(numb):
+    k = 0
+    for i in range(2, numb // 2 + 1):
+        if (numb % i == 0):
+            k = k + 1
+    if (k <= 0):
+        print("Число простое")
+    else:
+        print("Число не является простым")
+print(is_prime(int(input())))

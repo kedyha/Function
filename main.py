@@ -43,13 +43,30 @@
 
 #lessons_5
 
-def is_prime(numb):
-    k = 0
-    for i in range(2, numb // 2 + 1):
-        if (numb % i == 0):
-            k = k + 1
-    if (k <= 0):
-        print("Число простое")
-    else:
-        print("Число не является простым")
-print(is_prime(int(input())))
+# def is_prime(numb):
+#     k = 0
+#     for i in range(2, numb // 2 + 1):
+#         if (numb % i == 0):
+#             k = k + 1
+#     if (k <= 0):
+#         print("Число простое")
+#     else:
+#         print("Число не является простым")
+# print(is_prime(int(input())))
+
+
+#home_work
+#
+# def calculater(a,b,c):
+#     if c =='+':
+#         print(a+b)
+#     elif c =='-':
+#         print(a-b)
+#     while True:
+#         if c == 0:
+#             break
+#
+# print(calculater(int(input("чисо1")),int(input("число2")),input("введите операцию + - или 0 для выхода ")))
+#
+#
+#

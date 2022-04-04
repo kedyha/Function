@@ -25,3 +25,18 @@
 #
 #     return f"пеприм = {p} , плос = {s}, диагональ = {d}"
 # print(square(int(input("введите сторону квадрата: "))))
+
+#lessons_4
+# def season(month):
+#     if month == 12 or month == 1 or month == 2:
+#         print("зима")
+#     elif month == 3 or month == 4 or month == 5:
+#         print("весна")
+#     elif month == 6 or month == 7 or month == 8:
+#         print("лето")
+#     else:
+#         print("осень")
+#
+#
+# while True:
+#     season(int(input("введите номер месяца")))
